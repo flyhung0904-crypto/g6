@@ -1,0 +1,143 @@
+---
+name: shuke
+display_name: 熟客
+case_type: 創作
+subtype: 合輯內單篇
+cold_start_mode: full
+cold_start_date: 2026-09-07
+
+lighter_role: [作家]
+pen_name: 猶安
+
+basic_info:
+  collection: 聚首
+  collection_position: 篇一（合輯其餘篇目未定）
+  word_count_target: 23500
+  word_count_hard_cap: 25000
+  chapter_count: 6
+  start_date: 2026-09-07
+  end_date: 2026-09-14
+
+core_message:
+  logline: 兩名同志酒吧公關在熟客召集的聚會後發現常客死在整理間，追查那句「他睡了」的來源，看見自己賴以工作的熟悉如何被拿去替別人決定什麼叫沒事。
+  dual_axis:
+    - 聚首線：江以衡由邀請與同桌安排查起，終段面對店方召集共同署名
+    - 懼熟線：沈至堯由一句工作用語究竟承諾了什麼查起
+  core_image: 城市裡的每個人都可能是對方的胃
+  subtypes: [社會派推理, 心理懸疑, 同志文學]
+
+redlines:
+  - level: absolute
+    description: 全篇無女性角色，含背景出場者與回憶人物
+  - level: absolute
+    description: 正文上限 25,000 字，工具實數計
+  - level: absolute
+    description: 支配關係寫在職場與社會層，不壓縮成雙男主之間的控制
+  - level: absolute
+    description: 不寫私密影像；殺人動機不放在欠債、侵占、分紅、交易失敗
+  - level: absolute
+    description: 不由男公關職稱推定性服務，不混用其他店型制度
+  - level: absolute
+    description: 署名猶安，不與真人掛勾、不由筆名反推
+
+redline_released:
+  - description: 命案數與凶手人選（原企劃＝一宗死亡、凶手方立勤）
+    ruling: Lighter 2026-09-07「3 可以開放」；檢核可提替代方案，⛔ 改動前先問
+
+spoiler_policy:
+  social: 全禁謎底與凶手
+  essay: 可寫命案發生與職場權力主題，不點凶手、不寫四重反轉內容
+  criticism: 全開
+
+ai_out_of_scope:
+  - none_specified
+
+downstream_chain:
+  - skill: tw-mystery-planning
+    scope: 只跑 M1-M4 四角色交叉檢核，不重做企劃
+    status: in_progress
+  - skill: tw-novel-writing
+    status: pending
+  - skill: tw-novel-revision
+    status: pending
+  - skill: tw-verification-runner
+    status: pending
+  - skill: tw-mystery-manuscript-review
+    status: optional
+
+cross_artifacts:
+  redline_list: 紅線清單.md
+  character_relations: 人物關係圖.md
+  info_asymmetry_table: 訊息差結構表.md
+  chapter_continuity_log: 章節寫作連續性紀錄表.md
+  issues_pool: _issues.md
+  source_plan: 前置材料\熟客_猶安_寫作計畫與人物設定.docx
+  source_research: 前置材料\熟客_同志男公關_職業普查與創作校準.md
+
+narrative_spec:
+  person: 第三人稱限知
+  pov_rotation: 章節輪轉（1、3、5 江以衡；2、4、6 沈至堯）
+  chapter_length: 3600-4300
+  scene_ratio: 命案與解謎 50%／職業生活與社會處境 40%／雙男主情感 10%
+
+character_physical_card:
+  - {role: 主角, name: 江以衡, age: 26, occupation: 駐店公關（九個月）, height: 待定, build: 待定, distinctive_features: [住板橋騎車往返, 衣服帶回酒味]}
+  - {role: 主角, name: 沈至堯, age: 29, occupation: 駐店公關（三年）, height: 待定, build: 待定, distinctive_features: [常帶新人, 白天補眠失敗]}
+  - {role: 關鍵人物, name: 邱明修, age: 24, occupation: 駐店公關（五個月）, height: 待定, build: 待定, distinctive_features: [右手護具, 暫時減班]}
+  - {role: 死者, name: 陳則安, age: 32, occupation: 健身房店長・岸邊熟客・前公關, height: 待定, build: 待定, distinctive_features: [熟知店內備品位置]}
+  - {role: 凶手, name: 方立勤, age: 34, occupation: 岸邊店長（公關升任）, height: 待定, build: 待定, distinctive_features: [待定]}
+  - {role: 關鍵人物, name: 謝秉川, age: 40, occupation: 岸邊店主, height: 待定, build: 待定, distinctive_features: [待定]}
+  - {role: 關鍵人物, name: 郭奕辰, age: 27, occupation: 吧台兼外場, height: 待定, build: 待定, distinctive_features: [手上常有杯具或抹布]}
+
+progress:
+  current_skill: tw-mystery-planning
+  current_phase: planning
+  written_chapters: []
+  word_count_actual: 0
+
+relations:
+  is_sequel: false
+  related_works: []
+
+lighter_signoff:
+  claude_md: false
+  case_spec: false
+  downstream_chain: true
+  cross_artifacts: false
+  active_projects_append: not_asked
+
+versions:
+  - version: 1.0
+    date: 2026-09-07
+    note: cold-start full 初版
+---
+
+# 熟客 case-spec
+
+## 五、完成判準（⛔ 動筆前定，⛔ 不做完回頭放寬）
+
+- **S1** 正文六章，總字數 23,500±1,000、上限 25,000，以工具實數計（含標點與數字、不含空白）。
+- **S2** 全篇出現的人物零名女性，含背景與回憶；以逐章掃描確認。
+- **S3** 命案在第 1 章結束前被發現，第 2 章明確進入他殺調查。
+- **S4** 四次反轉各自落在第 2、3、4、5 章，且每次都改變下一步行動（逐章可指出改變了誰的什麼動作）。
+- **S5** 訊息差表 12 條中，讀者取得時點與視角人物已知時點一致，⛔ 無視角人物明知卻對讀者隱去的重大事實。
+- **S6** 至少三場重要核對發生在營業時間之外（白天、通勤、租屋處）。
+- **S7** 支配關係的每一次出現都落在職場或社會層；雙男主之間零控制情節。
+- **S8** 交付前跑完 tw-verification-runner，禁令自掃歸零。
+
+## 六、待確認
+
+- [待確認：七名人物的物理特徵（身高、體型、走路特徵、服裝慣性）──企劃全缺，⛔ 動筆前要填齊]
+- [待確認：命案動線的實際比例平面草圖──企劃要求核對，尚未製作]
+- [待確認：篇名《熟客》與合輯名《聚首》語意接近，且「聚首」同時是企劃裡一條線的名字，是否調整其一]
+- [待確認：紅線③開放後，命案結構是否維持現行的一宗死亡與凶手方立勤]
+
+## 訪談記錄（2026-09-07）
+
+- **模式**：full
+- **企劃位階**：當定稿企劃，先過四角色檢核（Lighter 選）
+- **合輯**：開合輯根目錄與合輯層 CLAUDE.md；目前只確定書名《聚首》與本篇
+- **不要 AI 插手的環節**：都不指定，全部交給我
+- **紅線**：六條中第③條開放，其餘照收
+- **時程**：一週內交完稿
+- **暴雷**：三層標準分級
