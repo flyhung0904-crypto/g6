@@ -41,7 +41,7 @@ redlines:
   - level: absolute
     description: R6 署名猶安，不與真人掛勾
   - level: absolute
-    description: R7 魏與信翔、家豪與信翔禁曖昧化
+    description: R7 魏與信翔、彥勳與信翔禁曖昧化
   - level: absolute
     description: R8 代辦者（魏）的權力要有店內依據
   - level: absolute
@@ -51,7 +51,7 @@ redlines:
 
 redline_released:
   - description: 命案數與凶手人選
-    ruling: Lighter 2026-09-07「3 可以開放」；2026-10-09 選定方案三，真凶改為家豪
+    ruling: Lighter 2026-09-07「3 可以開放」；2026-10-09 選定方案三，真凶改為彥勳
 
 spoiler_policy:
   social: 全禁謎底與凶手
@@ -94,7 +94,7 @@ character_physical_card:
   - {role: 視角二, name: 立航, age: 29, occupation: 公關（四年）・週三週四開店, height: 179, build: 中等・手臂有線條, distinctive_features: [記得每個人喝什麼, 開店先拿杯架右上角的杯子]}
   - {role: 死者, name: 魏仲凱, age: 29, occupation: 熟客・小股東, height: 183, build: 高壯有肚子, distinctive_features: [皮外套掛椅背, 坐最裡面那席, 喝多睡後方長椅]}
   - {role: 被安排的人, name: 信翔, age: 22, occupation: 公關（七個月）, height: 167, build: 瘦, distinctive_features: [店服偏大袖口蓋手背, 被叫到時先笑]}
-  - {role: 真凶, name: 家豪, age: 25, occupation: 吧台（兩年）・週二週三收班, height: 176, build: 結實手大, distinctive_features: [最後一個杯子放杯架右上角, 講話快]}
+  - {role: 真凶, name: 彥勳, age: 25, occupation: 吧台（兩年）・週二週三收班, height: 176, build: 結實手大, distinctive_features: [最後一個杯子放杯架右上角, 講話快]}
 
 progress:
   current_skill: tw-mystery-planning
@@ -132,7 +132,7 @@ versions:
 
 ## 六、待確認
 
-- [已裁 2026-10-09：家豪的去向＝B，不交代]
+- [已裁 2026-10-09：彥勳的去向＝B，不交代]
 - [已裁 2026-10-09：店裡的人不必有姓；信翔本名「黃信翔」只在退租單出現一次]
 - [已完成 2026-10-09：平面圖重畫為 v5 動線]
 - [待辦：v5 送審議（動筆前置 gate）]

@@ -46,7 +46,7 @@
 
 <!-- 吧台內工作區 -->
 <rect x="150" y="95" width="440" height="50" fill="#dcd5c4" stroke="#191922" stroke-width="1.5"/>
-<text x="160" y="116" class="sm">吧台內工作區・家豪收班的位置</text>
+<text x="160" y="116" class="sm">吧台內工作區・彥勳收班的位置</text>
 <text x="160" y="134" class="sm">洗杯機・製冰機・酒櫃</text>
 <!-- 杯架 -->
 <g stroke="#191922" stroke-width="1" fill="#fff">
@@ -55,7 +55,7 @@
 <rect x="500" y="125" width="20" height="13"/><rect x="520" y="125" width="20" height="13"/><rect x="540" y="125" width="20" height="13"/>
 </g>
 <text x="492" y="116" class="red" text-anchor="end">杯架右上角 →</text>
-<text x="492" y="134" class="sm" text-anchor="end">家豪放最後一個杯子</text>
+<text x="492" y="134" class="sm" text-anchor="end">彥勳放最後一個杯子</text>
 
 <!-- 四人桌 -->
 <rect x="170" y="330" width="130" height="72" class="fill"/><text x="200" y="372" class="sm">四人桌</text>
@@ -70,7 +70,7 @@
 <!-- 拖行 -->
 <path d="M578 216 C600 260 590 320 560 386" class="dash"/>
 <polygon points="560,386 556,372 568,376" fill="#b5372a"/>
-<text x="622" y="276" class="red">家豪拖過去</text>
+<text x="622" y="276" class="red">彥勳拖過去</text>
 <text x="622" y="292" class="sm">約 1.5 m</text>
 
 <!-- 短走道・整理間 -->
@@ -91,10 +91,10 @@
 
 <!-- v5 動線 -->
 <text x="220" y="500" class="lbl" font-weight="bold">死亡當晚動線（v5・作者用，⛔ 不入正文）</text>
-<text x="220" y="522" class="sm">03:05　宇辰等人下班；家豪收班，魏哥照例留下多喝一杯（他有鑰匙，常一個人留到天亮）</text>
+<text x="220" y="522" class="sm">03:05　宇辰等人下班；彥勳收班，魏哥照例留下多喝一杯（他有鑰匙，常一個人留到天亮）</text>
 <text x="220" y="542" class="sm">約 03:20　信翔回來拿安全帽：鐵門拉下一半、裡面有燈、兩個人在講話，他沒有進去</text>
 <text x="220" y="562" class="sm">約 03:25　吧台尾端推擠，魏哥往後倒，頭撞到鐵踏階（非預謀）</text>
-<text x="220" y="582" class="sm">03:25–03:50　家豪把魏哥拖上後方長椅、蓋外套；洗魏哥的專屬杯，放杯架右上角；關燈、拉門</text>
+<text x="220" y="582" class="sm">03:25–03:50　彥勳把魏哥拖上後方長椅、蓋外套；洗魏哥的專屬杯，放杯架右上角；關燈、拉門</text>
 <text x="220" y="602" class="sm">隔天 19:00　立航開店，先從右上角拿第一個杯子（魏哥的杯），才看見長椅上的人</text>
-<text x="220" y="632" class="red">⚠️ 魏哥 183 cm、家豪 176 cm；從踏階到長椅約一公尺半，一個人拖得動。⛔ 正文不寫拖的過程。</text>
+<text x="220" y="632" class="red">⚠️ 魏哥 183 cm、彥勳 176 cm；從踏階到長椅約一公尺半，一個人拖得動。⛔ 正文不寫拖的過程。</text>
 </svg>
