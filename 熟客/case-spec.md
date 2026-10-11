@@ -11,52 +11,57 @@ pen_name: 猶安
 
 basic_info:
   collection: 聚首
-  collection_position: 篇一（篇名與合輯名待收稿時再定，Lighter 2026-09-07「不用管，最後收稿再說」）
+  collection_position: 篇一（篇名與合輯名語意接近，Lighter 2026-09-07「太近沒關係」，不改）
   word_count_target: 23500
   word_count_hard_cap: 25000
   chapter_count: 5
   start_date: 2026-09-07
-  end_date: 2026-09-14
 
 core_message:
-  logline: 兩名同志酒吧公關在熟客召集的聚會後發現常客死在整理間，追查那句「他睡了」的來源，看見自己賴以工作的熟悉如何被拿去替別人決定什麼叫沒事。
+  logline: 一個熟客死在同志酒吧，全店都說他是喝多了跌倒。兩個公關接到他生前轉過來的客人，才發現他死前替店裡最小的那個人辦好了一整份離開，而那份離開在他死後照樣生效。
+  core_suspense: 兩個人都說「我知道他」，一個把他送走，一個為了留下他動了手；沒有人問過他。
   dual_axis:
-    - 懼熟線：葉子謙推進——他一直在替別人假設，學會問之前先學會了猜
-    - 代決線：潘紹軒推進——他的「我看一眼就知道」是全店省下確認的工具
+    - 懼熟線：宇辰推進——會問的人，問之前先猜好答案
+    - 代決線：立航推進——他看一眼說「老樣子」，事情就成了意外
   core_image: 城市裡的每個人都可能是對方的胃
-  subtypes: [同志懸疑, 社會派推理, 職場犯罪]
-  shelf_category: 同志文學／同志懸疑（2026-09-07 Lighter 拍板；⛔ 不歸純推理櫃、⛔ 不歸 BL）
+  subtypes: [同志懸疑, 職場犯罪]
+  shelf_category: 同志文學／同志懸疑（⛔ 不歸純推理櫃、⛔ 不歸 BL）
 
 redlines:
   - level: absolute
-    description: 全篇無女性角色，含背景出場者與回憶人物
+    description: R1 全篇無女性角色，含背景出場者與回憶人物
   - level: absolute
-    description: 正文上限 25,000 字，工具實數計
+    description: R2 正文上限 25,000 字，工具實數計
   - level: absolute
-    description: 支配關係寫在職場與社會層，不壓縮成雙男主之間的控制
+    description: R3 支配關係寫在職場與社會層，不壓縮成雙男主之間的控制
   - level: absolute
-    description: 不寫私密影像；殺人動機不放在欠債、侵占、分紅、交易失敗
+    description: R4 不寫私密影像；殺人動機不放在欠債、侵占、分紅、交易失敗
   - level: absolute
-    description: 不由男公關職稱推定性服務，不混用其他店型制度
+    description: R5 不由男公關職稱推定性服務，不混用其他店型制度
   - level: absolute
-    description: 署名猶安，不與真人掛勾、不由筆名反推
+    description: R6 署名猶安，不與真人掛勾
+  - level: absolute
+    description: R7 魏與信翔零曖昧；彥勳對信翔只允許第 5 章最底層一份單方面、不說破的感情（v5.1）
+  - level: absolute
+    description: R8 代辦者（魏）的權力要有店內依據
+  - level: absolute
+    description: R9 全篇不出現任何法律
+  - level: absolute
+    description: R10 不寫法醫、警察、鑑識（2026-10-09）
 
 redline_released:
-  - description: 命案數與凶手人選（v1＝凶手方立勤，已作廢；v2＝真凶杜昱宸，待簽）
-    ruling: Lighter 2026-09-07「3 可以開放」；檢核可提替代方案，⛔ 改動前先問
+  - description: 命案數與凶手人選
+    ruling: Lighter 2026-09-07「3 可以開放」；2026-10-09 選定方案三，真凶改為彥勳
 
 spoiler_policy:
   social: 全禁謎底與凶手
-  essay: 可寫命案發生與職場權力主題，不點凶手、不寫四重反轉內容
+  essay: 可寫命案發生與職場權力主題，不點凶手、不寫三次翻轉內容
   criticism: 全開
-
-ai_out_of_scope:
-  - none_specified
 
 downstream_chain:
   - skill: tw-mystery-planning
-    scope: 只跑 M1-M4 四角色交叉檢核，不重做企劃
-    status: in_progress
+    scope: v5 重寫
+    status: v5 交付，待 Lighter 簽收與審議
   - skill: tw-novel-writing
     status: pending
   - skill: tw-novel-revision
@@ -68,78 +73,76 @@ downstream_chain:
 
 cross_artifacts:
   redline_list: 紅線清單.md
+  source_plan: 企劃.md（v5，唯一真相源）
+  plot_walkthrough: 情節線與懸疑.md
   character_relations: 人物與關係.md
   info_asymmetry_table: 訊息與線索.md
   chapter_continuity_log: 章節與連續性.md
+  voice_calibration: 語感校準.md
   issues_pool: _issues.md
-  source_plan: 企劃.md（v4 重作版，唯一真相源）
-  source_research: 前置材料\熟客_同志男公關_職業普查與創作校準.md
+  source_research: 前置材料\職業設定.md、前置材料\熟客_同志男公關_職業普查與創作校準.md
+  floor_plan: 前置材料\岸邊平面圖.png（v5.2 動線；v4 版在 _舊版-20261009-v4/）
 
 narrative_spec:
   person: 第三人稱限知
-  pov_rotation: 章節輪轉（1、3、5 葉子謙；2、4 潘紹軒）
-  chapter_length: 4700（單章上限 5200，超過即退回六章制重排）
-  scene_ratio: 命案與解謎 50%／職業生活與社會處境 40%／雙男主情感 10%
+  pov_rotation: 章節輪轉（1、3、5 宇辰；2、4 立航）
+  chapter_length: 4700（第 4 章超過 5,000 即依企劃 §十四挪段）
+  per_chapter_load: 一次翻（或鋪陳）＋一個職場現場＋一段兩人之間，⛔ 不加第四件
 
 character_physical_card:
-  - {role: 主角・視角一, name: 葉子謙, age: 23, occupation: 公關（九個月）, height: 172, build: 偏瘦・肩窄, distinctive_features: [住板橋騎車, 說話前先停一下]}
-  - {role: 主角・視角二, name: 潘紹軒, age: 29, occupation: 公關（三年）・帶新人, height: 178, build: 中等・手臂有線條, distinctive_features: [走路快腳步輕, 記得每個人喝什麼]}
-  - {role: 死者, name: 簡柏庭, age: 27, occupation: 前公關・健身房教練・熟客・收錢辦事, height: 180, build: 練過・肩背厚, distinctive_features: [進門先開吧台下抽屜, 口頭禪「你不用說，我知道」]}
-  - {role: 明面嫌疑, name: 紀立群, age: 26, occupation: 店長（公關升任）, height: 175, build: 中等偏壯, distinctive_features: [說話前先看手機, 左手戴錶收班摘下]}
-  - {role: 第三方, name: 高承翰, age: 25, occupation: 吧台兼外場（兩年）・收另一家店介紹費, height: 182, build: 高瘦・手長, distinctive_features: [走動最多, 口袋永遠有開瓶器]}
-  - {role: 真凶, name: 杜昱宸, age: 23, occupation: 公關（五個月）, height: 168, build: 瘦・肩窄, distinctive_features: [手上常有杯具或抹布, 被叫到時先笑再回答, 店服偏大袖口蓋住手背]}
+  - {role: 視角一, name: 宇辰, age: 23, occupation: 公關（十個月）, height: 172, build: 偏瘦・肩窄, distinctive_features: [住板橋騎車, 開口前先停一下]}
+  - {role: 視角二, name: 立航, age: 29, occupation: 公關（四年）・週三週四開店, height: 179, build: 中等・手臂有線條, distinctive_features: [記得每個人喝什麼, 開店先拿杯架右上角的杯子]}
+  - {role: 死者, name: 魏仲凱, age: 29, occupation: 熟客・小股東, height: 183, build: 高壯有肚子, distinctive_features: [皮外套掛椅背, 坐最裡面那席, 喝多睡後方長椅]}
+  - {role: 被安排的人, name: 信翔, age: 22, occupation: 公關（七個月）, height: 167, build: 瘦, distinctive_features: [店服偏大袖口蓋手背, 被叫到時先笑]}
+  - {role: 真凶, name: 彥勳, age: 25, occupation: 吧台（兩年）・週二週三收班, height: 176, build: 結實手大, distinctive_features: [最後一個杯子放杯架右上角, 講話快]}
 
 progress:
   current_skill: tw-mystery-planning
-  current_phase: planning（M1 重構版待簽收）
+  current_phase: v5.2 交付（一輪五席、二輪三席審議皆有條件成立，條件已併入），待 Lighter 簽收
   written_chapters: []
   word_count_actual: 0
 
-relations:
-  is_sequel: false
-  related_works: []
-
 lighter_signoff:
-  claude_md: false
-  case_spec: false
-  downstream_chain: true
-  cross_artifacts: false
-  active_projects_append: not_asked
+  plan_v5: false
 
 versions:
   - version: 1.0
     date: 2026-09-07
     note: cold-start full 初版
+  - version: 2.0
+    date: 2026-10-09
+    note: 企劃 v5 重寫，人物與凶手全換，立 R10
+  - version: 2.1
+    date: 2026-10-09
+    note: 五席審議後修訂為 v5.1（推理鏈修補、動機分層、R7 修訂）
+  - version: 2.2
+    date: 2026-10-09
+    note: 二輪三席審議後修訂為 v5.2（彥勳的謊改為跟大家一起下樓、宇辰作證；翻一加外套與乾淨吧台；日期與用語修正）
 ---
 
 # 熟客 case-spec
 
 ## 五、完成判準（⛔ 動筆前定，⛔ 不做完回頭放寬）
 
-- **S1** 正文五章，總字數 23,500±1,000、上限 25,000，以工具實數計（含標點與數字、不含空白）。
-- **S2** 全篇出現的人物零名女性，含背景與回憶；以逐章掃描確認。
-- **S3** 命案在第 1 章結束前被發現，第 2 章明確進入他殺調查。
-- **S4** 六次翻各自落在第 2、3（兩次）、4、5（兩次）章，且每次都改變下一步行動。
-- **S9** 全篇出現具體地名、店的形制、與錢怎麼算三類本土材料各至少三處。
-- **S10** 「你不用說，我知道」全篇出現次數 ≤2（工具實數）。
-- **S5** 訊息差表 12 條中，讀者取得時點與視角人物已知時點一致，⛔ 無視角人物明知卻對讀者隱去的重大事實。
-- **S6** 至少三場重要核對發生在營業時間之外（白天、通勤、租屋處）。
+- **S1** 正文五章，總字數 20,000–25,000（2026-10-09 Lighter 裁示放寬下限，原 23,500±1,000），以工具實數計（含標點與數字、不含空白）。
+- **S2** 全篇出現的人物零名女性，含背景與回憶；逐章掃描確認。
+- **S3** 第 1 章結束前讀者知道魏死了、全店說是意外；第 2 章結束前「意外」被撤掉。
+- **S4** 三次翻各落在第 2、3、4 章，揭曉在第 5 章；每次翻後，視角人物下一場戲去找的人或去的地方跟翻之前不同（可逐章對照驗）。
+- **S5** 訊息差表中，讀者取得時點與視角人物已知時點一致；視角人物對自己的誤認（第 12 條立航以為右上角是店規、第 12b 條宇辰以為看到彥勳下樓）屬真心誤認，⛔ 不算隱瞞；第 1 章已讓讀者看見相關畫面。
+- **S6** 至少三場重要核對發生在營業時間之外：第 2 章早餐店、第 3 章白天立航住處、第 4 與第 5 章收班後。
 - **S7** 支配關係的每一次出現都落在職場或社會層；雙男主之間零控制情節。
 - **S8** 交付前跑完 tw-verification-runner，禁令自掃歸零。
+- **S9** 具體地名、店的形制、錢怎麼算（底薪、抽成、轉客）三類，每類在全篇至少出現於三個不同章。
+- **S10** 全篇零法醫、零警察、零鑑識、零法律（R9、R10）。掃描詞表至少含：警察、警方、員警、刑警、法醫、驗屍、鑑識、採證、筆錄、報案、法律、合約、違法、罪、判、律師；另掃「算不算數」「撤得回來」這類法律形狀的對話。⚠️「判」「罪」會誤中「判斷」「罪惡感」，命中後一律人工複核。
+- **S11** 「他會懂的」「他不會想回去，我知道」各至多一次且只在第 5 章；「老樣子」第 5 章零次。
+- **S12** 前四章沒有任何一處要信翔自己回答關於他自己的問題；客人在店裡的例行問話可以出現，但一律由別人代答（逐章掃問句確認）。
+- **S13** 會計類詞彙零出現（帳、結帳、對帳、算帳等全族）；手機物件動作零出現。
 
 ## 六、待確認
 
-- [待確認：七名人物的物理特徵（身高、體型、走路特徵、服裝慣性）──企劃全缺，⛔ 動筆前要填齊]
-- [待確認：命案動線的實際比例平面草圖──企劃要求核對，尚未製作]
-- [待確認：篇名《熟客》與合輯名《聚首》語意接近，且「聚首」同時是企劃裡一條線的名字，是否調整其一]
-- [待確認：真凶＝杜昱宸（21）是否定案；representation 疑慮見 _issues.md I-11]
-
-## 訪談記錄（2026-09-07）
-
-- **模式**：full
-- **企劃位階**：當定稿企劃，先過四角色檢核（Lighter 選）
-- **合輯**：開合輯根目錄與合輯層 CLAUDE.md；目前只確定書名《聚首》與本篇
-- **不要 AI 插手的環節**：都不指定，全部交給我
-- **紅線**：六條中第③條開放，其餘照收
-- **時程**：一週內交完稿
-- **暴雷**：三層標準分級
+- [已裁 2026-10-09：彥勳的去向＝B，不交代]
+- [已裁 2026-10-09：店裡的人不必有姓，叫本名去姓；信翔本名「黃信翔」只在退租單出現一次]
+- [已完成 2026-10-09：平面圖重畫為 v5.1 動線]
+- [已完成 2026-10-09：一輪五席審議，有條件成立，條件已併入 v5.1]
+- [已完成 2026-10-09：二輪三席複核，有條件成立，條件已併入 v5.2（兩輪紀錄同在 `[deliberation]熟客v5五席審議-20261009.md`）]
+- [待辦：Lighter 簽收 v5.2]

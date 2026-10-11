@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" font-family="Noto Sans TC, Microsoft JhengHei, sans-serif">
+<style>
+.wall{fill:none;stroke:#191922;stroke-width:6}
+.thin{fill:none;stroke:#191922;stroke-width:2}
+.dash{fill:none;stroke:#b5372a;stroke-width:2;stroke-dasharray:6 5}
+.fill{fill:#e8e2d4;stroke:#191922;stroke-width:2}
+.seat{fill:#fff;stroke:#191922;stroke-width:1.5}
+.lbl{font-size:15px;fill:#191922}
+.sm{font-size:12px;fill:#5a5a63}
+.red{font-size:13px;fill:#b5372a;font-weight:bold}
+.dim{font-size:12px;fill:#8a8a93}
+</style>
+<rect x="0" y="0" width="900" height="640" fill="#f6f2e9"/>
+<text x="40" y="42" class="lbl" font-size="20" font-weight="bold">岸邊・二樓平面（比例草圖　1 格＝50 cm）</text>
+<text x="40" y="64" class="sm">實坪約 8.4 坪（27.7 m²）｜前廳 6.9m × 3.4m ＋ 短走道 ＋ 整理間 2.2m × 1.8m　⚠️ 席數已依實排更正：八席（原十席排不下）</text>
+
+<!-- 外牆 -->
+<rect x="60" y="90" width="690" height="340" class="wall"/>
+<!-- 短走道與整理間 -->
+<line x1="600" y1="90" x2="600" y2="300" class="wall"/>
+<line x1="600" y1="360" x2="600" y2="430" class="wall"/>
+<rect x="750" y="150" width="90" height="180" class="wall"/>
+<line x1="750" y1="330" x2="750" y2="430" class="thin"/>
+
+<!-- 前門 -->
+<line x1="60" y1="330" x2="60" y2="410" stroke="#f6f2e9" stroke-width="8"/>
+<path d="M60 410 A80 80 0 0 0 140 330" class="thin"/>
+<text x="70" y="450" class="lbl">前門・騎樓樓梯</text>
+
+<!-- 長吧台 -->
+<rect x="150" y="150" width="440" height="55" class="fill"/>
+<text x="270" y="184" class="lbl">長吧台（4.8 m・八席）</text>
+<!-- 十席 -->
+<g class="seat">
+<circle cx="180" cy="240" r="15"/><circle cx="238" cy="240" r="15"/><circle cx="296" cy="240" r="15"/><circle cx="354" cy="240" r="15"/>
+<circle cx="412" cy="240" r="15"/><circle cx="470" cy="240" r="15"/><circle cx="528" cy="240" r="15"/><circle cx="556" cy="290" r="15"/>
+</g>
+<text x="150" y="272" class="sm">吧台八席（每席 60 cm）</text>
+
+<!-- 吧台內工作區 -->
+<rect x="150" y="95" width="440" height="50" fill="#dcd5c4" stroke="#191922" stroke-width="1.5"/>
+<text x="163" y="120" class="sm">吧台內工作區（進深 60–80 cm）：undercounter 洗杯機・製冰機・酒櫃</text><text x="163" y="138" class="sm">高承翰整晚的位置；洗杯機運轉聲 58–65 dB(A)</text>
+
+<!-- 兩張四人桌 -->
+<rect x="170" y="330" width="130" height="72" class="fill"/><text x="196" y="372" class="sm">四人桌（聚會時併吧台）</text>
+
+<!-- 後方座位（店長算帳） -->
+<rect x="420" y="330" width="150" height="72" class="fill"/><text x="432" y="362" class="sm">後方座位</text><text x="432" y="382" class="sm">（紀立群算帳）</text>
+
+<!-- 短走道 -->
+<text x="648" y="200" class="lbl" transform="rotate(90 648 200)">短走道 1.1 m</text>
+<line x1="600" y1="300" x2="750" y2="300" class="thin" stroke-dasharray="4 4"/>
+<text x="612" y="322" class="sm">洗手間</text>
+
+<!-- 整理間 -->
+<text x="762" y="176" class="lbl">整理間</text>
+<text x="757" y="196" class="sm">2.2 × 1.8 m</text>
+<rect x="753" y="205" width="84" height="26" fill="#fff" stroke="#191922" stroke-width="1.5"/>
+<text x="758" y="223" class="sm">門邊第一格</text>
+<text x="758" y="243" class="sm">冰塊・備用杯</text>
+<rect x="753" y="255" width="84" height="70" fill="#cfc7b3" stroke="#191922" stroke-width="1.5"/>
+<text x="762" y="282" class="red">死角</text>
+<text x="757" y="302" class="sm">掛衣區</text>
+<text x="757" y="318" class="sm">（簡柏庭）</text>
+
+<!-- 整理間門與門擋 -->
+<line x1="750" y1="150" x2="750" y2="205" stroke="#f6f2e9" stroke-width="8"/>
+<path d="M750 205 A55 55 0 0 1 695 150" class="thin"/>
+<text x="668" y="140" class="red">門（向走道開）</text>
+<circle cx="737" cy="140" r="7" fill="#b5372a"/>
+<text x="700" y="118" class="red">鑄鐵門擋（平常位置）</text>
+
+<!-- 視線 -->
+<path d="M556 290 L620 262 L700 232" class="dash"/>
+<text x="300" y="470" class="red">紅虛線＝吧台端的視線：看得到門前走道，⛔ 看不到關門後的房內</text>
+
+<!-- 比例尺 -->
+<line x1="60" y1="500" x2="160" y2="500" class="thin"/>
+<line x1="60" y1="494" x2="60" y2="506" class="thin"/><line x1="160" y1="494" x2="160" y2="506" class="thin"/>
+<text x="86" y="520" class="dim">1 公尺</text>
+
+<!-- 案發夜動線 -->
+<text x="220" y="500" class="lbl" font-weight="bold">案發夜動線（作者用，⛔ 不入正文）</text>
+<text x="220" y="522" class="sm">01:02 杜昱宸 進整理間換上衣　→ 01:06 簡柏庭跟進　→ 01:08 門擋　→ 01:12 杜出來、門帶上、門擋歸位</text>
+<text x="220" y="542" class="sm">01:15／01:28 高承翰 到門口，門關著，未開　→ 01:41 第三次開門伸手取冰，燈沒開，未入房</text>
+<text x="220" y="562" class="sm">01:52 葉子謙 進整理間取外套，開燈，發現</text>
+<text x="220" y="590" class="red">⚠️ 01:06–01:12 六分鐘：潘紹軒在吧台外側結帳／葉子謙在前廳收杯／高承翰在洗杯機旁／紀立群在後方座位算帳</text>
+<text x="220" y="612" class="sm">⚠️ 門邊第一格取冰塊＝伸手可及；死角在門後右側，開門不開燈看不到。音響在前廳靠前門那端。</text>
+</svg>
